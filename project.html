@@ -3,18 +3,12 @@
   <head>
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="F;owers">
+    <meta name="description" content="Flowers">
     <meta name="author" content="Mykhailo Boiev">
             <title>Flowers</title>
-    <link rel="stylesheet" href="/css/project.css">
+    <link href="./css/project.css" rel="stylesheet">
   </head>
   <body>
-    <ul class="access-links" >
-        <li><a href="#nav">Skip to navigation</a> </li>
-         <li><a href="#main">Skip to main</a> </li>
-         <li><a href="#history">Skip to history</a> </li>
-         <li><a href="#email">Skip to email</a> </li>
-    </ul>
     <header>
       <div class = "container" id = "top">
         <div id ="main">
@@ -34,7 +28,9 @@
         <h1>Subscribe to us</h1>
         <form>
         <input type="email" placeholder="Enter Email...">
-            <button type="submit" class="SubmButton">Subscribe</button>
+        <button type="submit" class="mdc-button">
+          <span class = "mdc-button__label">Subscribe</span>
+        </button>
         </form>
       </div>
     </section>
@@ -49,28 +45,27 @@
     <section id = "firstPics">
       <div class = "container">
         <div class="box">
-          <img src="./img/pr1.jpg" alt="Picture of Ginkgo" style="Width:445px;Height:275px">
-          <p>Ginkgo</p>
+          <img src="./img/pr1.jpg" alt="Picture of Ginkgo" title="Ginkgo" style="Width:445px;Height:275px">
         </div>
         <div class="box">
-          <img src="./img/pr2.JPG" alt="Picture of Conifier(Pinophyta)" style="Width:445px;Height:275px">
-          <p>Conifier(Pinophyta)</p>
+          <img src="./img/pr2.JPG" alt="Picture of Conifier(Pinophyta)" title="Conifier(Pinophyta)" style="Width:445px;Height:275px">
         </div>
       </div>
     </section>
     <section id ="part2">
       <div class="container">
         <div class="part2">
-          <P>Amborella trichopoda may have characteristic features of the earliest flowering plants</P>
-          <img src="./img/pr3.JPG" alt="Picture of Amborella trichopoda" style="Width:445px;Height:275px">
+          <P>Amborella trichopoda may have characteristic features of the earliest flowering plants. Since then plants have evolved a long way, and every flower has it's own way of attracting specific spicies involved in plant's reproduction process. For example, some of them attract bees</P>
         </div>
       </div>
     </section>
-    <section id ="part3">
+    <section id ="secondPics">
       <div class="container">
-        <div class="part3">
-          <P>Plants have evolved a long way, and every flower has it's own way of attracting specific spicies involved in plant's reproduction process</P>
-          <img src="./img/pr4.JPG" style="Width:445px;Height:275px">
+        <div class="box">
+          <img src="./img/pr3.JPG" alt="Picture of Amborella trichopoda" title ="Amborella" style="Width:445px;Height:275px">
+        </div>
+        <div class="box">
+          <img src="./img/pr4.JPG" alt="Flower pollinated by bee" title="Flower pollinated by bee" style="Width:445px;Height:275px">
         </div>
       </div>
     </section>
