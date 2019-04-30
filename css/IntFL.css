@@ -1,5 +1,8 @@
 body{
-  font-family: "Roboto"
+  font-family: "Roboto";
+  margin: auto;
+  align-items: center;
+  background-color: #e5e5e5;
 }
 P{
   font-size: 16px;
@@ -18,4 +21,40 @@ h2{
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.15;
+}
+.headerClass{
+  width:100%;
+  display: inline-block;
+  background-color: #1565c0;
+  color: #ffffff;
+  padding: 16px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom: 20px;
+}
+.menu{
+  float: left;
+  margin-left: 16px;
+}
+li{
+  float:left;
+  margin-left: 100px;
+}
+a:visited{
+  color: #ffffff;
+}
+a:link{
+  color: #ffffff;
+}
+.card{
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  padding: 16px;
+  display: block;
+  max-width: 560px;
+  margin: auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  align-self: center;
 }

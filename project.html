@@ -9,66 +9,72 @@
     <link href="./css/project.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class = "container" id = "top">
+    <header class = "headerClass">
+      <div class = "menu" id = "top">
         <div id ="main">
           <h1><span class="highlight">FLORISTRY</span> FOR EVERYONE</h1>
         </div>
         <nav role="navigation" id="nav">
-          <ul>
-            <li class="current"><a href="project.html">Home</a></li>
-            <li><a href="PopFL.html">Popular flowers</a></li>
-            <li><a href="IntFL.html">Interesting flowers</a></li>
+          <ul class = "navlist">
+            <li class="linkMat"><a href="project.html">Home</a></li>
+            <li class="linkMat"><a href="PopFL.html">Popular flowers</a></li>
+            <li class="linkMat"><a href="IntFL.html">Interesting flowers</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section id="newsletter">
-      <div class="container" id="email">
-        <h1>Subscribe to us</h1>
-        <form>
-        <input type="email" placeholder="Enter Email...">
-        <button type="submit" class="mdc-button">
-          <span class = "mdc-button__label">Subscribe</span>
-        </button>
-        </form>
+    <div class = "content">
+      <div class = "card">
+        <section id ="beginning">
+          <div class="container" id = "history">
+            <div class="beginning" >
+              <h2>Flowers is the beauty of the world</h2>
+              <P>While land plants have existed for about 425 million years, the first ones reproduced by a simple adaptation of their aquatic counterparts: spores. In the sea, plants—and some animals—can simply scatter out genetic clones of themselves to float away and grow elsewhere. This is how early plants reproduced. But plants soon evolved methods of protecting these copies to deal with drying out and other damage which is even more likely on land than in the sea. The protection became the seed, though it had not yet evolved the flower. Early seed-bearing plants include the ginkgo and conifers.</P>
+            </div>
+          </div>
+        </section>
+        <section id = "firstPics">
+          <div class = "picCont">
+            <div class="boxl">
+              <img src="./img/pr1.jpg" alt="Picture of Ginkgo" title="Ginkgo" style="Width:445px;Height:275px">
+            </div>
+            <div class="boxr">
+              <img src="./img/pr2.JPG" alt="Picture of Conifier(Pinophyta)" title="Conifier(Pinophyta)" style="Width:445px;Height:275px">
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
-    <section id ="beginning">
-      <div class="container" id = "history">
-        <div class="beginning" >
-          <h2>Flowers is the beauty of the world</h2>
-          <P>While land plants have existed for about 425 million years, the first ones reproduced by a simple adaptation of their aquatic counterparts: spores. In the sea, plants—and some animals—can simply scatter out genetic clones of themselves to float away and grow elsewhere. This is how early plants reproduced. But plants soon evolved methods of protecting these copies to deal with drying out and other damage which is even more likely on land than in the sea. The protection became the seed, though it had not yet evolved the flower. Early seed-bearing plants include the ginkgo and conifers.</P>
-        </div>
+      <div class = "card">
+        <section id ="part2">
+          <div class="container">
+            <div class="part2">
+              <P>Amborella trichopoda may have characteristic features of the earliest flowering plants. Since then plants have evolved a long way, and every flower has it's own way of attracting specific spicies involved in plant's reproduction process. For example, some of them attract bees</P>
+            </div>
+          </div>
+        </section>
+        <section id ="secondPics">
+          <div class="picCont">
+            <div class="boxl">
+              <img src="./img/pr3.JPG" alt="Picture of Amborella trichopoda" title ="Amborella" style="Width:445px;Height:275px">
+            </div>
+            <div class="boxr">
+              <img src="./img/pr4.JPG" alt="Flower pollinated by bee" title="Flower pollinated by bee" style="Width:445px;Height:275px">
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
-    <section id = "firstPics">
-      <div class = "container">
-        <div class="box">
-          <img src="./img/pr1.jpg" alt="Picture of Ginkgo" title="Ginkgo" style="Width:445px;Height:275px">
+      <section>
+        <div class="card" id="email">
+          <h1>Subscribe to us</h1>
+          <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="mdc-button">
+            <span class = "mdc-button__label">Subscribe</span>
+          </button>
+          </form>
         </div>
-        <div class="box">
-          <img src="./img/pr2.JPG" alt="Picture of Conifier(Pinophyta)" title="Conifier(Pinophyta)" style="Width:445px;Height:275px">
-        </div>
-      </div>
-    </section>
-    <section id ="part2">
-      <div class="container">
-        <div class="part2">
-          <P>Amborella trichopoda may have characteristic features of the earliest flowering plants. Since then plants have evolved a long way, and every flower has it's own way of attracting specific spicies involved in plant's reproduction process. For example, some of them attract bees</P>
-        </div>
-      </div>
-    </section>
-    <section id ="secondPics">
-      <div class="container">
-        <div class="box">
-          <img src="./img/pr3.JPG" alt="Picture of Amborella trichopoda" title ="Amborella" style="Width:445px;Height:275px">
-        </div>
-        <div class="box">
-          <img src="./img/pr4.JPG" alt="Flower pollinated by bee" title="Flower pollinated by bee" style="Width:445px;Height:275px">
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <a href="#top">Go up</a>
   </body>
 </html>

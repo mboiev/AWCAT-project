@@ -1,5 +1,7 @@
 body{
-  font-family: "Roboto"
+  font-family: "Roboto";
+  margin: auto;
+  background-color: #e5e5e5;
 }
 P{
   font-size: 16px;
@@ -18,4 +20,25 @@ h2{
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.15;
+}
+.Picturelist{
+  list-style-type: none;
+}
+.headerClass{
+  width:100%;
+  display: inline-block;
+  background-color: #1565c0;
+  color: #ffffff;
+  padding: 16px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+li{
+  float:left;
+  margin-left: 100px;
+}
+a:visited{
+  color: #ffffff;
+}
+a:link{
+  color: #ffffff;
 }
