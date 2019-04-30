@@ -24,6 +24,14 @@ h2{
 .Picturelist{
   list-style-type: none;
 }
+.menu{
+  float: left;
+  margin-left: 16px;
+}
+.content{
+  max-width: 1415px;
+  margin: auto;
+}
 .headerClass{
   width:100%;
   display: inline-block;
@@ -31,6 +39,22 @@ h2{
   color: #ffffff;
   padding: 16px;
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card{
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  padding-top: 1px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  display: block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  align-self: center;
+  align-items: center;
+  max-width: 1000;
 }
 li{
   float:left;
